@@ -1,0 +1,40 @@
+{
+	"title": "Infobip",
+	"description": "Infobip SMS is the easiest way to send and receive SMS. Take an advantage of our worldwide coverage and reach billions with one connection.",
+	"credentials": {
+		"fields": {
+			"username": {
+				"label": "Username",
+				"required": true,
+				"viewClass": "TextFieldView",
+				"placeholder": "Your Infobip username"
+			},
+			"password": {
+				"label": "Password",
+				"required": true,
+				"viewClass": "TextFieldView",
+				"placeholder": "Your Infobip password"
+			}
+		}
+	},
+	"actions": {
+		"sendSMS": {
+			"main": "./lib/actions/sendSMS.js",
+			"title": "Send SMS",
+			"metadata": {
+				"in": "./schemas/sendSMS.in.json"
+			}
+		}
+	},
+	"triggers": {
+		"receiveSMS": {
+			"main": "./lib/triggers/receiveSMS.js",
+			"title": "Receive SMS",
+            "type": "polling",
+			"metadata": {
+				"in": "./schemas/receiveSMS.in.json",
+				"out": "./schemas/receiveSMS.out.json"
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+    "fixtures":{
+        "send":{
+            "msg":{
+                "headers":{
+                    "Content-Type": "application/json"
+                },
+                "body":{
+                    "senderAddress": "{{sender_address}}",
+                    "address":  "{{phone_number}}",
+                    "message": "{{message_text}}"
+                } 
+            },
+            "cfg":{ 
+                "username": "{{infobip_username}}",
+                "password": "{{infobip_password}}"
+            }
+        },
+        "receive":{
+            "msg":{
+                "headers":{
+                    "Content-Type": "application/json"
+                },
+                "body":{
+                } 
+            },
+            "cfg":{ 
+                "username": "{{infobip_username}}",
+                "password": "{{infobip_password}}"
+            }
+        }
+    }
+}
