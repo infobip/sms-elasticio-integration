@@ -14,12 +14,7 @@
             }
         },
         "receive":{
-            "msg":{
-                "headers":{
-                    "Content-Type": "application/json"
-                },
-                "body":{
-                } 
+            "msg":{ 
             },
             "cfg":{ 
                 "username": "{{infobip_username}}",
