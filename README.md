@@ -14,8 +14,11 @@ Platform elastic.io connects applications to other cloud apps in seconds.
  
 ## Description ##
 
-This integration allows you to send and receive SMS on elastic.io platform. It is possible to use action which will send SMS or trigger which is getting received SMS messages from already bought phone number.    
-  
+This integration allows you to send and receive SMS over the elastic.io platform. There are both SMS action and trigger available on the elastic.io platform.
+
+SMS trigger is used when the message is received on the previously bought phone number.  
+
+SMS action will send the message on the defined phone number. 
 
 
 ## Owners ##
