@@ -1,0 +1,8 @@
+node_modules
+*.gz
+.idea
+lib-cov
+reports
+/*.png
+.DS_Store
+coverage
