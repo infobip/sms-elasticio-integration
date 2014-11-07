@@ -2,13 +2,10 @@
     "fixtures":{
         "send":{
             "msg":{
-                "headers":{
-                    "Content-Type": "application/json"
-                },
                 "body":{
-                    "senderAddress": "{{sender_address}}",
-                    "address":  "{{phone_number}}",
-                    "message": "{{message_text}}"
+                    "senderAddress": "{{infobip_sender_address}}",
+                    "address":  "{{infobip_phone_number}}",
+                    "message": "{{infobip_message_text}}"
                 } 
             },
             "cfg":{ 
