@@ -1,25 +1,29 @@
-{  
-   "type":"array",
-   "properties":{  
-      "dateTime":{  
-         "type":"string",
-         "title":"Date and Time",
-         "required":true
-      },
-      "destinationAddress":{  
-         "type":"string",
-         "title":"Recipient",
-         "required":true
-      },
-      "senderAddress":{  
-         "type":"string",
-         "title":"Sender",
-         "required":true
-      },
-      "message":{  
-         "type":"lstring",
-         "title":"Message",
-         "required":true
-      }
-   }
+{
+    "type": "object",
+    "properties": {
+        "title": "messages",
+        "type": "array",
+        "properties": {
+            "dateTime": {
+                "type": "string",
+                "title": "Date and Time",
+                "required": true
+            },
+            "destinationAddress": {
+                "type": "string",
+                "title": "Recipient",
+                "required": true
+            },
+            "senderAddress": {
+                "type": "string",
+                "title": "Sender",
+                "required": true
+            },
+            "message": {
+                "type": "lstring",
+                "title": "Message",
+                "required": true
+            }
+        }
+    }
 }
