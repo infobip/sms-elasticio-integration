@@ -1,7 +1,7 @@
 {
     "type": "object",
     "properties": {
-        "message": {
+        "messages": {
             "type": "array",
             "title": "messages",
             "properties": {
